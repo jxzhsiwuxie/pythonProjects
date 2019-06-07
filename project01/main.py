@@ -67,7 +67,7 @@ def insert():
     continue_insert = True
 
     while continue_insert:
-        student_id = input('请输入 ID 例如：（100）：')
+        student_id = input(' 请输入 ID 例如：（100）：')
         if not student_id:
             break
         student_name = input('请输入名字：')
